@@ -2,7 +2,7 @@ package com.green.day7.ch5;
 
 public class Array {
     public static void main(String[] args) {
-        int n1 = 10, n2 = 20, n3 =30;
+        int n1 = 10, n2 = 20, n3 = 30;
         int[] arr = {10, 20, 30, 40, 50}; //arr 부분 주소값저장
         String[] arr2 = {"A", "B", "가가", "나나"};
 
