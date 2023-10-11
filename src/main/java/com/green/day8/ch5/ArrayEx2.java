@@ -1,5 +1,7 @@
 package com.green.day8.ch5;
 
+import java.util.Arrays;
+
 public class ArrayEx2 {
     public static void main(String[] args) {
         /*
@@ -12,10 +14,11 @@ public class ArrayEx2 {
             arr1[i] = (int)(Math.random() * 10) + 1;
         }
         for(int i = 0; i < arr1.length; i++) {
-            System.out.printf("arr[%d]: %d\n", i, arr1);
+            System.out.printf("arr1[%d]: %d\n", i, arr1[i]);
         }
 
         System.out.println(arr1);
-        System.out.println();
+        System.out.println(arr1.toString());
+        System.out.println(Arrays.toString(arr1));
     }
 }

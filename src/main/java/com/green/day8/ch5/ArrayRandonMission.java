@@ -6,6 +6,7 @@ public class ArrayRandonMission {
 
         for (int i = 0; i < arr1.length; i++) {
             arr1[i] = (int)(Math.random() * 10) + 1;
+            System.out.println(arr1[i]);
             for(int z = 0; z < i; z++) {
                 if(arr1[i] == arr1[z]) {
                     i--;
