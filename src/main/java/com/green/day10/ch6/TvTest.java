@@ -4,6 +4,7 @@ public class TvTest {
     public static void main(String[] args) {
         // 클래스 : 문서, 설계도, 설명
         // 객체(Object, instance) : 아파트, Tv, 제품
+        // 객체의 구성요소 : 속성(명사, 멤버필드, property), 메소드(동사, 멤버메소드)
         String Str = new String("dd");
         //Tv tv3 = Str;
 
