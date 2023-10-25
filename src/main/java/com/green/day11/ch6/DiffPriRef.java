@@ -3,8 +3,9 @@ package com.green.day11.ch6;
 public class DiffPriRef {
     public static void main(String[] args) {
         int num = 30;
+        System.out.println("(1)num : " + num);
         changeVal(num);
-        System.out.println("num : " + num);
+        System.out.println("(2)num : " + num);
 
         NumBox nb = new NumBox();
         System.out.println("nb.num(1) : " + nb.num);

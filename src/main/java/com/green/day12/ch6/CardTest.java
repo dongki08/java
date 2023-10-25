@@ -11,6 +11,7 @@ public class CardTest {
         c2.number = "10";
 
         /*
+
         A : 1, J : 11, Q : 12, K : 13
         "2" > 2
         "3" > 3
